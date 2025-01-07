@@ -9,11 +9,11 @@
     "url": "https://github.com/get1024"
   },
   "license": "MIT",
-  "homepage": "https://github.com/get1024/vitepress-plugin-sidebar",
+  "homepage": "https://github.com/get1024/customIntegrations/tree/main/custom-vitepress-plugin-sidebar",
   "repository": {
     "type": "git",
-    "url": "https://github.com/get1024/vitepress-plugin-sidebar.git",
-    "directory": "packages/vitepress-plugin-sidebar"
+    "url": "https://github.com/get1024/customIntegrations.git",
+    "directory": "custom-vitepress-plugin-sidebar"
   },
   "keywords": [
     "vitepress",
