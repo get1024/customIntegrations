@@ -1,0 +1,55 @@
+{
+  "name": "@ryanjoy/vitepress-plugin-sidebar",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A vitepress plugin to generate sidebar for your site.",
+  "author": {
+    "name": "RyanJoy",
+    "email": "RyanJoy2002@gmail.com",
+    "url": "https://github.com/get1024"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/get1024/vitepress-plugin-sidebar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/get1024/vitepress-plugin-sidebar.git",
+    "directory": "packages/vitepress-plugin-sidebar"
+  },
+  "keywords": [
+    "vitepress",
+    "sidebar",
+    "markdown",
+    "vitepress-plugin"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "README.md",
+    "dist",
+    "package.json"
+  ],
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "tinyglobby": "^0.2.10"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4"
+  },
+  "scripts": {
+    "dev": "concurrently \"pnpm run stub\"",
+    "stub": "unbuild --stub",
+    "build": "unbuild",
+    "package:publish": "pnpm build && pnpm publish --access public --no-git-checks"
+  }
+}
