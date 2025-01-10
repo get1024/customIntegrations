@@ -1,7 +1,7 @@
 {
   "name": "@ryanjoy/vitepress-plugin-sidebar",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A vitepress plugin to generate sidebar for your site.",
   "author": {
     "name": "RyanJoy",
