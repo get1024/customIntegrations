@@ -9,10 +9,10 @@
     "url": "https://github.com/get1024"
   },
   "license": "MIT",
-  "homepage": "https://github.com/get1024/customIntegrations/tree/main/custom-vitepress-plugin-sidebar",
+  "homepage": "https://get1024.github.io/RyanJoy-s_Web/%F0%9F%93%92%E7%AC%94%E8%AE%B0/%F0%9F%91%A8%F0%9F%8F%BC%E2%80%8D%F0%9F%92%BB%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/%F0%9F%8C%90%E5%8D%9A%E5%AE%A2/%F0%9F%94%8C%E6%8F%92%E4%BB%B6/vitepress-plugin-sidebar.html",
   "repository": {
     "type": "git",
-    "url": "https://github.com/get1024/customIntegrations.git",
+    "url": "https://github.com/get1024/customIntegrations/tree/main/vitepress-plugin-sidebar",
     "directory": "custom-vitepress-plugin-sidebar"
   },
   "keywords": [
